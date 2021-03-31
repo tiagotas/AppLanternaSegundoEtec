@@ -43,9 +43,9 @@
         <Label Grid.Row="4" Grid.Column="0" Text="Status da Bateria" Style="{StaticResource textoEscuro}" />
         <Label Grid.Row="5" Grid.Column="0" Text="Fonte de Energia" Style="{StaticResource textoEscuro}" />
 
-        <Label Grid.Row="3" Grid.Column="1" Text="X" Style="{StaticResource textoClaro}" />
-        <Label Grid.Row="4" Grid.Column="1" Text="X" Style="{StaticResource textoClaro}" />
-        <Label Grid.Row="5" Grid.Column="1" Text="X" Style="{StaticResource textoClaro}" />
+        <Label x:Name="lbl_carga" Grid.Row="3" Grid.Column="1" Text="X" Style="{StaticResource textoClaro}" />
+        <Label x:Name="lbl_status" Grid.Row="4" Grid.Column="1" Text="X" Style="{StaticResource textoClaro}" />
+        <Label x:Name="lbl_fonte" Grid.Row="5" Grid.Column="1" Text="X" Style="{StaticResource textoClaro}" />
     </Grid>
 
 </ContentPage>
